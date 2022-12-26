@@ -1,0 +1,54 @@
+@media only screen and (max-width: 480px) {
+
+    html,body{
+        height:100%;
+        width:100%;
+        margin:0;
+        padding:0;
+        overflow-x:hidden;
+
+
+    }
+   .heading{
+    font-size:1.5rem;
+   }
+   .content{
+    height:170vh;
+    text-align:center;
+    position:relative;
+   }
+   .wrapper{
+    display:block;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    
+   }
+   .textbox{
+    
+    width:100%;
+   }
+   .heading1{
+    font-size:1.5rem;
+   }
+   .btn{
+    margin-bottom:20px;
+   }
+   .social{
+    width:100%;
+    
+    top:10%;
+    left:-20%;
+    
+
+   }
+   .socialbox{
+    
+    height:180px;
+    width:150px;
+   }
+   .google{
+    left:80%;
+   }
+}
